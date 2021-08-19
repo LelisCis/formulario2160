@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display: inline;
+        }
+        body{
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+    <h1>Bienvenidos a mi página web</h1>
+    <ul>
+        <li><a href="#video">Ir a video</a></li>
+        <li><a href="#formulario">Formulario</a></li>
+        <li><a href="#masopciones">ir a Galeria</a></li>
+        <li><a href="#descargas">Ir a descargas</a></li>
+
+
+    </ul>
+
+
+    <div id="masopciones"> 
+    <h3>Ruta absoluta</h3>
+    <img width="500px" src="https://www.revistaneo.com/sites/default/files/2020-10/fondos-padres.jpg" alt="">
+
+    <h3>Ruta absoluta</h3>
+    <img src="/clase2/img/fondo.jpg">
+    </div> 
+
+    <div id="descargas"> 
+        
+    <h2>Descargar pdf</h2>
+    <a href="./pdf/Coursera PK2DCA2B8N75.pdf" target="_blank" download>Aquí</a>
+    </div>
+
+
+    <form id= "formulario" action="/clase1/paginas/pagina2.html" method="GET">    
+    <label for= "nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre">
+    <label for= "password">Contraseña</label>
+    <input type="password" name="password" id="password">
+ </form>
+
+    <h3>Provincia</h3>
+    <label for="radio"> Gran Buenos Aires</label>
+    <input type="radio" name="radio" id="radio">
+    <label for="radio"> Capital</label>
+    <input type="radio" name="radio" id="radio">
+    <label for="radio"> Rosario</label>
+    <input type="radio" name="radio" id="radio">
+
+
+    <select>
+        <option>Idem</option>
+        <option>Idem</option>
+        <option>Idem</option>
+        <option>Idem</option>
+    </select>
+
+    <label for="">Lista for HTML</label>
+    <label for="">Body</label>
+    <input type="checkbox" name="" id="">
+    <label for="">Script</label>
+    <input type="checkbox" name="" id="">
+    <label for="">Java</label>
+    <input type="checkbox" name="" id="">
+    <input type="submit" value="Entrar">
+
+
+    <h2>Video</h2>
+    <iframe id=video width="560" height="315" src="https://www.youtube.com/embed/tRQsgplBn0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>Lorem ipsum dolor sit amet <b><i>aquí va en negrita</i></b>consectetur adipisicing elit. Fugit temporibus quae, magni qui aliquid asperiores eius neque nesciunt nisi, iusto sapiente illo mollitia, praesentium ducimus aspernatur non fugiat quasi laboriosam!</p>
+        </div>
+
+
+
+
+
+
+</body>
+</html>
